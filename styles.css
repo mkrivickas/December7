@@ -1,0 +1,89 @@
+/* General styling */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f8f9fa;
+  background-image: url('https://www.transparenttextures.com/patterns/giftly.png');
+  color: #2c3e50;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #e74c3c;
+  text-shadow: 2px 2px #d35400;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border: 2px solid #27ae60;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2ecc71;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #16a085;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #7f8c8d;
+}
+
+footer a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Festive decorations */
+body::before {
+  content: '🎄';
+  font-size: 5em;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+body::after {
+  content: '🎁';
+  font-size: 5em;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
